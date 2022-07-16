@@ -21,25 +21,25 @@
 
 <h3><img src="https://cdn3.emoji.gg/emojis/6047-clouddownload.png" align=center width=30/> Global Dependencies</h3>
 
-> npm install -g nodemon typescript ts-node
+> `npm install -g nodemon typescript ts-node`
 
 <br />
 
 <h3><img src="https://cdn3.emoji.gg/emojis/6047-clouddownload.png" align=center width=30/> Dependencies</h3>
 
-> npm install express mustache-express dotenv
+> `npm install express mustache-express dotenv`
 
 <br />
 
 <h3><img src="https://cdn3.emoji.gg/emojis/6047-clouddownload.png" align=center width=30/> Dev Dependencies</h3>
 
-> npm install --save-dev @types/express @types/mustache-express @types/node
+> `npm install --save-dev @types/express @types/mustache-express @types/node`
 
 <br />
 
 <h3><img src="https://cdn3.emoji.gg/emojis/9718-sonic-tpose.png" align=center width=35/>How to run?</h3>
 
-> npm run start-dev | yarn start-dev
+> `npm run start-dev | yarn start-dev`
 
 ###### <img src="https://cdn3.emoji.gg/emojis/6377-firefox.png" align=center width=20/>  **in browser open `localhost:5000`**
 

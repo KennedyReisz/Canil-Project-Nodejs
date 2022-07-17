@@ -23,17 +23,23 @@
 
 > `npm install -g nodemon typescript ts-node`
 
+> `yarn add -g nodemon typescript ts-node`
+
 <br />
 
 <h3><img src="https://cdn3.emoji.gg/emojis/6047-clouddownload.png" align=center width=30/> Dependencies</h3>
 
 > `npm install express mustache-express dotenv`
 
+> `yarn add express mustache-express dotenv`
+
 <br />
 
 <h3><img src="https://cdn3.emoji.gg/emojis/6047-clouddownload.png" align=center width=30/> Dev Dependencies</h3>
 
 > `npm install --save-dev @types/express @types/mustache-express @types/node`
+
+> `yarn add -D @types/express @types/mustache-express @types/node`
 
 <br />
 
@@ -45,4 +51,4 @@
 
 <br />
 
-<h5 align=center>Project made in <a href="https://b7web.com.br/fullstack/" target="_blank">B7Web</a> course ♡</h5>
+<h5 align=center>Project made in <a href="https://b7web.com.br/fullstack/" target="_blank">B7Web</a> course ❤</h5>

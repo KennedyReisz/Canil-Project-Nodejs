@@ -1,3 +1,4 @@
+// Import's
 import express from "express";
 import dotenv from "dotenv";
 import mustache from "mustache-express";
@@ -23,4 +24,5 @@ server.use((req, res) => {
   res.send("Página não encontrada!");
 });
 
+// Create .env and add PORT=5000
 server.listen(process.env.PORT);

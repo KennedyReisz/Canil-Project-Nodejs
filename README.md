@@ -22,6 +22,7 @@
 <h3><img src="https://cdn3.emoji.gg/emojis/6047-clouddownload.png" align=center width=30/> Global Dependencies</h3>
 
 > `npm install -g nodemon typescript ts-node`
+
 > `yarn add -g nodemon typescript ts-node`
 
 <br />

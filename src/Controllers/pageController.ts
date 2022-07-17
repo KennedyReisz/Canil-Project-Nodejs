@@ -1,13 +1,9 @@
 import { Request, Response } from "express";
+import { createMenuObject } from "../Helpers/createMenuObject";
 
 export const home = (req: Request, res: Response) => {
   res.render("Pages/PageView", {
-    menu: {
-      all: true,
-      dog: false,
-      cat: false,
-      fish: false,
-    },
+    menu: createMenuObject("all"),
     banner: {
       title: "Todos os animais",
       background: "allanimals.jpg",
@@ -17,12 +13,7 @@ export const home = (req: Request, res: Response) => {
 
 export const dogs = (req: Request, res: Response) => {
   res.render("Pages/PageView", {
-    menu: {
-      all: false,
-      dog: true,
-      cat: false,
-      fish: false,
-    },
+    menu: createMenuObject("dog"),
     banner: {
       title: "Cachorros",
       background: "banner_dog.jpg",
@@ -32,12 +23,7 @@ export const dogs = (req: Request, res: Response) => {
 
 export const cats = (req: Request, res: Response) => {
   res.render("Pages/PageView", {
-    menu: {
-      all: false,
-      dog: false,
-      cat: true,
-      fish: false,
-    },
+    menu: createMenuObject("cat"),
     banner: {
       title: "Gatos",
       background: "banner_cat.jpg",
@@ -47,12 +33,7 @@ export const cats = (req: Request, res: Response) => {
 
 export const fishes = (req: Request, res: Response) => {
   res.render("Pages/PageView", {
-    menu: {
-      all: false,
-      dog: false,
-      cat: false,
-      fish: true,
-    },
+    menu: createMenuObject("fish"),
     banner: {
       title: "Peixes",
       background: "banner_fish.jpg",

@@ -47,7 +47,7 @@
 
 > `npm run start-dev | yarn start-dev`
 
-###### <img src="https://cdn3.emoji.gg/emojis/6377-firefox.png" align=center width=20/>  **in browser open `localhost:5000`**
+###### <img src="https://cdn3.emoji.gg/emojis/6377-firefox.png" align=center width=20/>  **in browser open `localhost:4500`**
 
 <br />
 

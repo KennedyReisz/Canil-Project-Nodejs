@@ -1,6 +1,15 @@
 import { Request, Response } from "express";
+import { pet } from "../Models/pet";
+import { createMenuObject } from "../Helpers/createMenuObject";
 
 export const search = (req: Request, res: Response) => {
-  res.send("searchs")
-  //res.render("pages/search")
-}
+  let query: string = req.query.q as string;
+
+  let list = pet.getFromName(query);
+
+  res.render("Pages/PageView", {
+    menu: createMenuObject(""),
+    list,
+    query,
+  });
+};

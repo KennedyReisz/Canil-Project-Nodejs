@@ -8,7 +8,7 @@
   {{ title }}
 </section>
 <h2>{{ title }} disponíveis para adoção</h2>
-{{/ banner }}}}
+{{/ banner }}
 
 <div class="container list">
   {{#list}}
@@ -20,5 +20,11 @@
   </div>
   {{/list}}
 </div>
+
+{{^list}}
+<div class="container no-list">
+  <h2>Não há animais disponíveis nestas condições.</h2>
+</div>
+{{/list}}
 
 {{>Partials/FooterPartial}}

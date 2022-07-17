@@ -12,7 +12,12 @@
       <div class="container">
         <a href="/">PetDevShop</a>
         <form method="GET" action="/search">
-          <input type="search" name="q" placeholder="Pesquise por raça" />
+          <input
+            type="search"
+            name="q"
+            placeholder="Pesquise por raça"
+            value="{{ query }}"
+          />
         </form>
       </div>
     </header>

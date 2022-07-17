@@ -51,4 +51,4 @@
 
 <br />
 
-<h5 align=center>Project made in <a href="https://b7web.com.br/fullstack/" target="_blank">B7Web</a> course ♡</h5>
+<h5 align=center>Project made in <a href="https://b7web.com.br/fullstack/" target="_blank">B7Web</a> course ❤</h5>

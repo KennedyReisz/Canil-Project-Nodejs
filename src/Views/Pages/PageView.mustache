@@ -11,12 +11,14 @@
 {{/ banner }}}}
 
 <div class="container list">
+  {{#list}}
   <div class="item">
-    <img src="images/pastor-alemao.jpg" class="item--image" />
-    <div class="item--name">Pastor-alemão</div>
-    <div class="item--color">Cor: Amarelo e Preto</div>
-    <div class="item--genre">Gênero: Masculino</div>
+    <img src="images/{{ image }}" class="item--image" />
+    <div class="item--name">{{ name }}</div>
+    <div class="item--color">Cor: {{ color }}</div>
+    <div class="item--genre">Gênero: {{ sex }}</div>
   </div>
+  {{/list}}
 </div>
 
 {{>Partials/FooterPartial}}

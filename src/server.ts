@@ -24,5 +24,5 @@ server.use((req, res) => {
   res.send("Página não encontrada!");
 });
 
-// Create .env and add PORT=5000
+// Create .env and add PORT=4500
 server.listen(process.env.PORT);

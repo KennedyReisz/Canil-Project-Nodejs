@@ -1,17 +1,36 @@
+// Function's
 export const pet = {
   getAll: (): Pet[] => {
     return data;
   },
+
+  getFromType: (type: PetType): Pet[] => {
+    return data.filter((item) => {
+      return item.type === type;
+    });
+  },
+
+  getFromName: (name: string): Pet[] => {
+    return data.filter((item) => {
+      return item.name.toLowerCase().indexOf(name.toLowerCase()) > -1;
+    });
+  },
 };
 
+// Type's
+type PetType = "dog" | "cat" | "fish";
+
+type PetSex = "Masculino" | "Feminino";
+
 type Pet = {
-  type: "dog" | "cat" | "fish";
+  type: PetType;
   image: String;
   name: String;
   color: String;
-  sex: "Masculino" | "Feminino";
+  sex: PetSex;
 };
 
+// Animal List
 const data: Pet[] = [
   {
     type: "dog",

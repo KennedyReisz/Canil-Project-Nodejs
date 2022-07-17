@@ -1,3 +1,9 @@
+export const pet = {
+  getAll: (): Pet[] => {
+    return data;
+  },
+};
+
 type Pet = {
   type: "dog" | "cat" | "fish";
   image: String;
@@ -5,8 +11,6 @@ type Pet = {
   color: String;
   sex: "Masculino" | "Feminino";
 };
-
-export const pet = {};
 
 const data: Pet[] = [
   {
